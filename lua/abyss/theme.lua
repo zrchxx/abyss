@@ -189,7 +189,7 @@ function M.set_colors()
 		NvimTreeVertSplit = { fg = p.red },
 		NvimTreeWindowPicker = { fg = p.red },
     NvimTreeNormalFloat = { bg = p.bg },
-    NvimTreeNormalFloatBorder = { bg = p.bg_alt },
+    --NvimTreeNormalFloatBorder = { bg = p.bg_alt },
 
 		-- nvim-treesitter: https://github.com/nvim-treesitter/nvim-treesitter
 		["@attribute"] = { fg = p.blue },
