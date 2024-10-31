@@ -200,7 +200,7 @@ function M.set_colors()
 		NvimTreeStatusLineNC = { bg = p.bg, fg = p.bg },
 		NvimTreeSymlink = { fg = p.blue },
 		NvimTreeVertSplit = { fg = p.bg, bg = p.bg },
-		NvimTreeWindowPicker = { fg = p.red, bg = p.bg_alt },
+		NvimTreeWindowPicker = { fg = p.red, bg = p.bg },
 
 		-- nvim-treesitter: https://github.com/nvim-treesitter/nvim-treesitter
 		["@attribute"] = { fg = p.blue },
