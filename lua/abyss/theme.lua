@@ -110,19 +110,6 @@ function M.set_colors()
 		Ignore = { fg = p.fg },
 		Underlined = { underline = true },
 
-    -- Buffline
-    BufflineBufOnActive = { fg = p.blue, bg = p.bg },
-    BufflineBufOnInactive = { fg = p.fg_alt, bg = p.bg},
-    BuffLineBufOnModified = { fg = p.yellow, bg = p.bg_alt },
-    BuffLineBufOffModified = { fg = p.fg, bg = p.bg },
-    BuffLineBufOnClose = { fg = p.red, bg = p.bg_alt },
-    BuffLineBufOffClose = { fg = p.red, bg = p.bg },
-    BuffLineTree = { fg = p.fg_alt, bg = p.bg },
-    BuffLineEmpty = { fg = p.bg, bg = p.bg },
-    BuffLineEmptyColor = { fg = p.bg, bg = p.bg },
-    BuffLineButton = { fg = p.red, bg = p.bg_alt },
-    BuffLineCloseButton = { fg = p.red, bg = p.bg_alt },
-
     -- StatusLine
     StalineNormalMode = { fg = p.bg, bg = p.fg },
     StalineInsertMode = { fg = p.bg, bg = p.green },
@@ -201,6 +188,8 @@ function M.set_colors()
 		NvimTreeEndOfBufferNC = { fg = p.fg },
 		NvimTreeVertSplit = { fg = p.red },
 		NvimTreeWindowPicker = { fg = p.red },
+    NvimTreeNormalFloat = { bg = p.bg },
+    NvimTreeNormalFloatBorder = { bg = p.bg_alt },
 
 		-- nvim-treesitter: https://github.com/nvim-treesitter/nvim-treesitter
 		["@attribute"] = { fg = p.blue },
